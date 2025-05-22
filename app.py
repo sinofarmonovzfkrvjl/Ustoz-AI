@@ -6,8 +6,8 @@ app = FastAPI(
     docs_url='/',
     redoc_url="/",
     version="1.0.0",
-    description="(men)[https://t.me/jackson_rodger] tomonimdan yasaldi",
-    summary="O'zbekiston maktabidagi fanlarga asoslangan yordamchi Suniy Intellekt",
+    description="[men](https://t.me/jackson_rodger) tomonimdan yasaldi",
+    summary="O'zbekiston maktabidagi fanlarga asoslangan yordamchi Suniy Intellekt. Bu AI o'zbekiston maktablaridagi deyarli barcha fanlarni biladi va shu fanlarga oid mavzular bo'yicha javob beradi",
 )
 
 @app.get("/api/v1/start", tags=["Bilimdon AI"], name="Bilimdon AI")
